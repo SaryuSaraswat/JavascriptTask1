@@ -74,18 +74,3 @@ console.log(`Current Account Balance: $${currentAccount.getBalance()}`);
 
 
 
-
-
-
-
-
-
-
-
-// Encapsulation: We encapsulate the account details (account number, account holder, and balance) within the BankAccount class. The methods getBalance and setBalance allow controlled access to the balance property.
-
-// Inheritance: We create two specialized classes (SavingsAccount and CurrentAccount) that inherit from the BankAccount class. They inherit the properties and methods of the parent class and add their own specific features.
-
-// Polymorphism: Both SavingsAccount and CurrentAccount classes override the withdraw method to provide their specific behavior while adhering to the same method signature.
-
-// Abstraction: The deposit method abstracts the process of adding funds to an account. The user doesn't need to know the internal details of how the balance is updated.
